@@ -24,7 +24,7 @@ hash = {}
 if hash[:key] 
   hash[:key] += 1
 else 
-  hash[:key] = "value"
+  hash[:key] = value
 end 
 end
 

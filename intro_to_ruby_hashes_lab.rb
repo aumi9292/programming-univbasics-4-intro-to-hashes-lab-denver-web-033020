@@ -25,7 +25,7 @@ if hash["kee"]
   hash["kee"] += 1
 else 
   hash["kee"] = "val"
-
+end 
 end
 
 def read_from_hash(hash, key)

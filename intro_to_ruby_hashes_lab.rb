@@ -19,8 +19,9 @@ end
 
 def my_hash_creator(key, value)
 hash = {}
-#{key}
-hash[#{key}] = #{value}
+key = #{key}
+value = #{value}
+hash[:key] = #{value}
 
 end
 

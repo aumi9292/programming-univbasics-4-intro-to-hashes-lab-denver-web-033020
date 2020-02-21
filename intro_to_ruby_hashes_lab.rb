@@ -20,8 +20,8 @@ end
 def my_hash_creator(key, value)
 hash = {}
 key = #{key}
-value = #{value}
-hash[:key] = #{value}
+val = #{value}
+hash[:key] = #{val}
 
 end
 

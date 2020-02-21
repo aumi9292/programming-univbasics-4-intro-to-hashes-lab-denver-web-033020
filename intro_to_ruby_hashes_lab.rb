@@ -21,10 +21,10 @@ def my_hash_creator(key, value)
 hash = {}
 #kee = #{key}
 #val = #{value}
-if hash[:key] 
-  hash[:key] += 1
+if hash[key] 
+  hash[key] += 1
 else 
-  hash[:key] = value
+  hash[key] = value
   return hash
 end 
 end

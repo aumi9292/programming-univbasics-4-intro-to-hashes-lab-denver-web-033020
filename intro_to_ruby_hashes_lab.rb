@@ -19,9 +19,12 @@ end
 
 def my_hash_creator(key, value)
 hash = {}
-key = #{key}
+kee = #{key}
 val = #{value}
-hash[:key] = #{val}
+if hash["kee"] 
+  hash["kee"] += 1
+else 
+  hash["kee"] = "val"
 
 end
 

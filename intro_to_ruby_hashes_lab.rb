@@ -24,7 +24,7 @@ val = #{value}
 if hash["kee"] 
   hash["kee"] += 1
 else 
-  hash["kee"] = "val"
+  hash["kee"] = val
 end 
 end
 

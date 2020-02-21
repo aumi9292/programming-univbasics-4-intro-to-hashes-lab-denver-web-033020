@@ -4,8 +4,8 @@ end
 
 def my_hash
 hash = {
-  :key "dodoo",
-  :key2 "dada"
+  key: "dodoo",
+  key2: "dada"
 }
 end
 

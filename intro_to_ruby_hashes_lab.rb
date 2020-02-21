@@ -25,6 +25,7 @@ if hash[:key]
   hash[:key] += 1
 else 
   hash[:key] = value
+  return hash
 end 
 end
 

@@ -18,9 +18,8 @@ hash = {id: 5}
 end
 
 def my_hash_creator(key, value)
-hash = {}
-hash[:key] = #{key}
-hash[:key] = #{value}
+hash = {:#{key} #{value}}
+
 end
 
 def read_from_hash(hash, key)
